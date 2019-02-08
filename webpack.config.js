@@ -9,7 +9,7 @@ const javascript = {
 
 module.exports = {
   mode: 'production',
-  entry: './resources/index.js',
+  entry: './webview/index.js',
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, './dist')
