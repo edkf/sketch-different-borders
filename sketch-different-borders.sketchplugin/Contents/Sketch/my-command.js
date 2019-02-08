@@ -2316,17 +2316,6 @@ module.exports = function buildAPI(browserWindow, panel, webview) {
 
 /***/ }),
 
-/***/ "./src/index.html":
-/*!************************!*\
-  !*** ./src/index.html ***!
-  \************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "file://" + context.plugin.urlForResourceNamed("_webpack_resources/b90918a297420b7d1dddf4cc15ea7955.html").path();
-
-/***/ }),
-
 /***/ "./src/my-command.js":
 /*!***************************!*\
   !*** ./src/my-command.js ***!
@@ -2349,7 +2338,7 @@ __webpack_require__.r(__webpack_exports__);
     width: 600,
     height: 400
   });
-  browserWindow.loadURL(__webpack_require__(/*! ./index.html */ "./src/index.html"));
+  browserWindow.loadURL(__webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module '../resources/index.html'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())));
 });
 
 /***/ }),

@@ -10,5 +10,5 @@ export default function() {
     height: 400
   })
   
-  browserWindow.loadURL(require('./index.html'))
+  browserWindow.loadURL(require('../resources/index.html'))
 }
