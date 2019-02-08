@@ -3,12 +3,12 @@ import BrowserWindow from 'sketch-module-web-view'
 // documentation: https://developer.sketchapp.com/reference/api/
 
 export default function() {
-  sketch.UI.message("It's alive 🙌")
-  const options = {
-    identifier: '1234',
-  }
-  
-  const browserWindow = new BrowserWindow(options)
+   
+  const browserWindow = new BrowserWindow({
+    title: 'Sketch different borders',
+    width: 600,
+    height: 400
+  })
   
   browserWindow.loadURL(require('./index.html'))
 }

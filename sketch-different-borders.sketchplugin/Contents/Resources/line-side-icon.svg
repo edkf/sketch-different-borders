@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>lineSide</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0.435631793" y="1.50491705" width="29.3478261" height="29.3478261"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="29.3478261" height="29.3478261" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="Artboard" transform="translate(-22.000000, -105.000000)">
+            <g id="row" transform="translate(0.000000, 79.000000)">
+                <g id="borderSelector" transform="translate(21.000000, 25.000000)">
+                    <g id="lineSide" transform="translate(0.958333, 0.000000)">
+                        <use id="Rectangle" stroke="#BBBBBB" mask="url(#mask-2)" stroke-width="2" stroke-dasharray="2,8" xlink:href="#path-1"></use>
+                        <path d="M0.919352214,2.05946656 L29.2809245,2.05946656" id="Line-2" stroke="#000000"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

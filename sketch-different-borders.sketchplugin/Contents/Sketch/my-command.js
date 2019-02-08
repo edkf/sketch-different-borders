@@ -2344,11 +2344,11 @@ __webpack_require__.r(__webpack_exports__);
  // documentation: https://developer.sketchapp.com/reference/api/
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  sketch__WEBPACK_IMPORTED_MODULE_0___default.a.UI.message("It's alive 🙌");
-  var options = {
-    identifier: '1234'
-  };
-  var browserWindow = new sketch_module_web_view__WEBPACK_IMPORTED_MODULE_1___default.a(options);
+  var browserWindow = new sketch_module_web_view__WEBPACK_IMPORTED_MODULE_1___default.a({
+    title: 'Sketch different borders',
+    width: 600,
+    height: 400
+  });
   browserWindow.loadURL(__webpack_require__(/*! ./index.html */ "./src/index.html"));
 });
 
